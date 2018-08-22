@@ -21,16 +21,16 @@ export default {
             },
             swiperList: [{
                 id: '0001',
-                imgUrl: "https://m.360buyimg.com/mobilecms/s750x366_jfs/t23185/303/2268048621/426877/b0ab0a91/5b7a36a4Ned6def2c.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+                imgUrl: "http://img1.qunarzz.com/piao/fusion/1808/5e/514ce60160e62602.jpg_750x200_9b0074e2.jpg"
             }, {
                 id: '0002',
-                imgUrl: "https://img1.360buyimg.com/da/s750x366_jfs/t25615/287/616242820/100113/bd8b5722/5b763b70N7ab570bd.jpg!cr_1125x549_0_72.dpg"
+                imgUrl: "http://img1.qunarzz.com/piao/fusion/1807/66/e5a5cec881702f02.jpg_750x200_67bb5691.jpg"
             }, {
                 id: '0003',
-                imgUrl: "https://img1.360buyimg.com/da/s750x366_jfs/t25387/228/752902205/83028/c185d78/5b7a34a4N19d040fe.jpg!cr_1125x549_0_72.dpg"
+                imgUrl: "http://img1.qunarzz.com/piao/fusion/1806/ae/2f9a9f0bbc30e102.jpg_750x200_75b6a866.jpg"
             }, {
                 id: '0004',
-                imgUrl: "https://m.360buyimg.com/mobilecms/s750x366_jfs/t20029/272/1765431541/135543/fbf22a8b/5b25a7d0Ncdb4f0f3.jpg!cr_1125x549_0_72!q70.jpg.dpg"
+                imgUrl: "http://img1.qunarzz.com/piao/fusion/1808/ad/1d2e0030d4ff7302.jpg_750x200_bf5a325d.jpg"
             }],
         }
     }

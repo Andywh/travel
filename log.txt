@@ -1,2 +1,11 @@
 reset.css border.css 来源
 https://blog.csdn.net/qq_41115965/article/details/81542910 （好用）
+
+2. 57 集
+mounted () {
+  this.scroll = new Bscroll(this.$refs.wrapper, {
+    click: true
+  })
+}
+===
+mounted 里的 click 要设置成为 true, 点击事件才会生效

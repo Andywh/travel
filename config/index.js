@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://ailun.fun.:80',
+        target: 'http://localhost:8082',
         pathRewrite: {
           '^/api': '/static/mock'
         }

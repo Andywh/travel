@@ -1,7 +1,8 @@
 <template>
-  <ul class="list">
+  <ul class="list" ref="alphabet">
     <li
     class="item"
+    ref="alphabet"
     v-for="item of letters"
     :key="item"
     @touchstart="handleTouchStart"
@@ -29,12 +30,12 @@ export default {
   data () {
     return {
       touchStatus: false,
-      startY: 0,
+      startY: 120,
       timer: null
     }
   },
   updated () {
-    this.startY = 220
+    this.startY = this.$refs.alphabet[0].offsetTop
   },
   methods: {
     handleLetterClick (e) {
@@ -51,6 +52,7 @@ export default {
         this.timer = setTimeout(() => {
           const touchY = e.touches[0].clientY - 79
           const index = Math.floor((touchY - this.startY) / 20)
+          console.log(index)
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }
